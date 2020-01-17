@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿using GradeBook.Enums;
+=======
+using GradeBook.Enums;
+>>>>>>> 10f2af76b741f0e7fb8e30a93253f28e9c04e76f
 using System;
 using System.Linq;
 
@@ -31,6 +35,7 @@ namespace GradeBook.GradeBooks
                 return 'D';
             else return 'F';
         }
+<<<<<<< HEAD
 
         public override void CalculateStatistics()
         {
@@ -52,5 +57,7 @@ namespace GradeBook.GradeBooks
 
             base.CalculateStudentStatistics(name);
         }
+=======
+>>>>>>> 10f2af76b741f0e7fb8e30a93253f28e9c04e76f
     }
 }
